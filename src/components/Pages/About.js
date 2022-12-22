@@ -3,8 +3,7 @@ import Header from "../Header";
 import Footer from "../Footer";
 const About=()=>{
     return(
-        <div>
-            
+        <div className="section">
             <Header/>
           <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">

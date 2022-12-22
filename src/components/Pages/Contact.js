@@ -7,7 +7,7 @@ const Contact=()=>{
             <Header/>
            
             
-  <section class="page-section" id="contact">
+  <section class="section page-section" id="contact">
             <div class="container">
                 
                 <h1 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Us</h1>
