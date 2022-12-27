@@ -34,7 +34,7 @@ const TokenDashboard = () => {
           <br />
           <div className="row">
             <div className="col-lg-5">
-              <input type="text" value="0 BNB"></input>
+              <input type="text" value="0 BNB" style={{color:"black"}}></input>
             </div>
             <div className="col-lg-5">
               <input type="text" value="0 $WSI"></input>

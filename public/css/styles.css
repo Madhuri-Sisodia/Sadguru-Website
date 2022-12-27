@@ -13,8 +13,8 @@ label{
   padding: 4px 1rem;
   margin: 0px 4px;
   color: #2eaae5;
-  border: 1px solid white;
-  background-color: white;
+  border: 1px solid black;
+  background-color: black;
   width: 77%;
 }
 .style-button-1{
@@ -95,6 +95,7 @@ h5{
 .token-div{
   background-color: #eee;
   border-radius: 45px;
+  background: linear-gradient(234deg, rgb(55, 64, 79) 26%, rgba(128,37,149,1) 26%, rgba(127,52,94,1) 27%, rgba(170,43,137,1) 29%, rgba(63,73,88,1) 30%, rgba(63,73,88,1) 68%, rgba(127,52,94,1) 70%, rgba(170,43,137,1) 72%, rgba(128,37,149,1) 72%, rgb(55, 75, 102) 73%, rgba(50, 59, 72) 75%);
 }
 
 .tokenomics-div{
@@ -103,6 +104,7 @@ h5{
 }
 .roadmap-div{
   background-color: #111;
+  background: linear-gradient(234deg, rgb(55, 64, 79) 26%, rgba(128,37,149,1) 26%, rgba(127,52,94,1) 27%, rgba(170,43,137,1) 29%, rgba(63,73,88,1) 30%, rgba(63,73,88,1) 68%, rgba(127,52,94,1) 70%, rgba(170,43,137,1) 72%, rgba(128,37,149,1) 72%, rgb(55, 75, 102) 73%, rgba(50, 59, 72) 75%);
   border-radius: 45px;
 }
 
