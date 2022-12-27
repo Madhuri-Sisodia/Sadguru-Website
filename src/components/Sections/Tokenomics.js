@@ -1,7 +1,7 @@
 import React from "react";
 import tokenEconomics from "../jsonData/tokenEconomics.json";
 import TokenomicsTable from "../Table/Tokenomics/TokenomicsTable";
-
+import TokenBreakDownTable from "../Table/TokenBreakDown/TokenBreakDownTable";
 const Tokenomics = () => {
   return (
     <div className="section tokenomics-div">
@@ -9,7 +9,12 @@ const Tokenomics = () => {
         <h1 className="h1">Tokenomics Breakdown</h1>
         <h2 className="h2">TOKEN NAME: WeSendit ($WSI) TOKEN TYPE: BEP- </h2>
       </div>
-      
+
+      <div className="row">
+        <div className="card-box-dark">
+          <TokenBreakDownTable />
+        </div>
+      </div>
       <p>&nbsp;</p>
 
       <div className="row">
