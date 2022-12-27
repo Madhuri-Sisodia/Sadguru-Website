@@ -6,11 +6,13 @@ import TokenDashboard from "../Sections/TokenDashboard";
 import Tokenomics from "../Sections/Tokenomics";
 import FAQ from "../FAQ/FAQ";
 import {questions} from "../FAQ/FaqData";
+import RoadMap from "../Sections/RoadMap";
 const MainPage=()=>{
     return(
         <div className="outer-body">
          <Header/>
          <TokenDashboard/>
+         <RoadMap/>
          <Token/>
          <Tokenomics/>
          <FAQ data={questions}/>
