@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+  <script>
+    function menudynamic() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
@@ -45,7 +55,7 @@
           <!-- * *                               SB Forms JS                               * *-->
           <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
           <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-          <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+          <!-- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> -->
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

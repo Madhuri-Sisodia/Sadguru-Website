@@ -1,12 +1,19 @@
 import React from "react";
 import Footer from "../Footer";
 import Header from "../Header";
-import Container from "../Container";
+import Token from "../Sections/Token";
+import TokenDashboard from "../Sections/TokenDashboard";
+import Tokenomics from "../Sections/Tokenomics";
+import FAQ from "../FAQ/FAQ";
+import {questions} from "../FAQ/FaqData";
 const MainPage=()=>{
     return(
-        <div>
+        <div className="outer-body">
          <Header/>
-         <Container/>
+         <TokenDashboard/>
+         <Token/>
+         <Tokenomics/>
+         <FAQ data={questions}/>
          <Footer/>
         </div>
     )

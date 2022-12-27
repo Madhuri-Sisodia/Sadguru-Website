@@ -5,12 +5,13 @@ import tokenData from "./jsonData/tokenData.json";
 import tokenEconomics from "./jsonData/tokenEconomics.json";
 const Container=()=>{    
     return(
-      <div>
+      <div className="section">
 
         <div>
        
-            <div className="section">
-              <h1 className="h1">Buy $WSI and be part of the biggest revolution 
+            <div >
+              <h1 className="h1">Buy $WSI and be part 
+              of the biggest revolution 
                        in the history of Big Data </h1>
               <button className="style-button-1">How to buy?</button>    <button className="style-button-1">PancakeSwap</button>
               <p>WESENDITPUBLIC SALE HAS STARTED:
