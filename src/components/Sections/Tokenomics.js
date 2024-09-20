@@ -14,7 +14,7 @@ const Tokenomics = () => {
         <div className="card-box-dark">
           <TokenBreakDownTable />
         </div>
-      </div>
+      </div>  
       <p>&nbsp;</p>
 
       <div className="row">
